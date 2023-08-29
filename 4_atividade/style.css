@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+}
+
+
+
+.container{
+    display: flex;
+    width: 100%;
+
+}
+
+.content{
+    width: 100%;
+
+}
+
+.co{
+    padding: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.prin{
+    width: 100%;
+}
+
+#email, #pass{
+    padding: 0.5rem;
+    width: 20rem;
+    border: none;
+
+}
