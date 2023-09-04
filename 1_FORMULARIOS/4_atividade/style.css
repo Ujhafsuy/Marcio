@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 header{
@@ -9,6 +12,7 @@ header{
     align-items: center;
     justify-content: center;
     padding: 4rem;
+    background: var(--lapis-lazuli);
 }
 
 
@@ -16,7 +20,9 @@ header{
 .container{
     display: flex;
     width: 100%;
-
+    background: var(--charcoal);
+    height: 100vh;
+    color: var(--white);
 }
 
 .content{
@@ -41,4 +47,15 @@ header{
     width: 20rem;
     border: none;
 
+}
+
+
+
+:root{
+    --robin-egg-blue: #55DDE0;
+    --lapis-lazuli: #33658A;
+    --charcoal: #2F4858;
+    --hunyadi-yellow: #F6AE2D;
+    --orange: #F26419;
+    --white: #FFF;
 }
